@@ -1,4 +1,40 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:black;font-family:arial;color:white}
+h1{color:grey;font-family:verdana}
+
+.maindiv {
+    background-color:white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+label{
+    margin-right:  2em;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start
+}
+.my_label{
+    margin-right: 2em;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+#calculations{
+    
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 
